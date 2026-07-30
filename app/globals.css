@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap');
+:root { --primary: #22c55e; --accent: #15803d; --bg: #faf7f2; --text: #1a1a1a; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { font-family: 'Inter', sans-serif; color: var(--text); background-color: var(--bg); overflow-x: hidden; }
+h1,h2,h3,h4,h5,h6 { font-family: 'DM Serif Display', serif; }
+.gradient-text { background: linear-gradient(135deg, #22c55e 0%, #15803d 50%, #f5e6d3 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+.glass { background: rgba(255,255,255,0.1); backdrop-filter: blur(20px); border: 1px solid rgba(255,255,255,0.15); }
